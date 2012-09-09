@@ -11,8 +11,6 @@ public class CrucialWool extends JavaPlugin{
 		PluginManager manager = this.getServer().getPluginManager();
 
 		manager.registerEvents(new CrucialWoolListner(), this);
-		manager.registerEvents(new LoginLogoutListner(), this);
-		manager.registerEvents(new MobSpawnerListner(), this);
 
 	}
  
@@ -20,5 +18,6 @@ public class CrucialWool extends JavaPlugin{
 		getLogger().info("Your plugin has been disabled.");
 	
 	}
+	
 	
 }
